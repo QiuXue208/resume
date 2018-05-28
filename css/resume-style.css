@@ -82,16 +82,19 @@ hr{
 }
 .banner{
     background-image: url(../images/background-img.jpg);
-    height:467px;
+   /* height:467px;
+    height:770px;*/
+    height:515px;
     background-position: center center;
     background-size: cover;
 }
 .mask{
-    height:467px;
+    height:515px;
     background-color: rgba(0,0,0,0.7);
 }
 .userCard{
-    max-width: 830px;
+   /* max-width: 830px;*/
+   max-width: 932px;;
     margin-left: auto;
     margin-right: auto;
     border:1px solid red;
@@ -100,7 +103,8 @@ hr{
     background-color: #E6686A;
     color:white;
     display:inline-block;
-    padding:4px 7px 4px 7px;
+    padding:5px 12px 5px 12px;
+   /* padding:4px 7px 4px 7px;*/
     position: relative;
 }
 .userCard .triangle{
@@ -119,19 +123,27 @@ hr{
 }
 .userCard .text{
     float:left;
-    margin-left:56px;
-    width:460px;
+   /* margin-left:56px;*/
+   margin-left: 64px;
+    /*width:460px;*/
+    width: 525px;
 }
 .userCard .text h1{
-    margin-top:22px;
-    margin-bottom:6px;
+   /* margin-top:22px;
+    margin-bottom:6px;*/
+    margin-top: 24px;
+    margin-bottom:7px;
+
 }
 .userCard .pictureAndText{
-    margin-left:46px;
-    margin-top:50px;
+    /*margin-left:46px;
+    margin-top:50px;*/
+    margin-left: 51px;
+    margin-top: 58px;
 }
 .userCard .text hr{
-    margin:20px 40px 10px 0px; 
+    /*margin:20px 40px 10px 0px; */
+    margin:28px 20px 24px 0;
 }
 .userCard dl dt,
 .userCard dl dd{
@@ -146,26 +158,30 @@ hr{
     width:70%;
     color:#9da0a7;
 }
-.userCard>footer .media{
+.userCard .media{
     background-color: #E8676B;
-    border:1px solid green;
+    /*border:1px solid green;*/
     text-align: center;
+    /*新加*/
+    margin-top:25px;
 
 }
 .userCard svg{
     width:40px;
-    padding:5px 0;
+    /*padding:5px 0;*/
+    padding:12px 0;
     line-height:30px;
-    fill:white;
+    fill:black;
     vertical-align: top;
 }
-.userCard>footer .media >a{
+.userCard .media >a{
     display:inline-block;
     border-radius: 50%;
-    width:40px;
-    height:40px;
-    margin:0 16px;
+   /* width:40px;
+    height:40px;*/
+   /* margin:0 16px;*/
+    margin:22px 22px 22px 22px;
 }
-.userCard>footer .media >a:hover{
+.userCard .media >a:hover{
     background: #CF5D5F;
 }
