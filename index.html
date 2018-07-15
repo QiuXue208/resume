@@ -2,12 +2,10 @@
 <html>
 
 <head>
-	<title>My Pages</title>
-	<script src="//at.alicdn.com/t/font_677026_3a5ksawnyrqqia4i.js">
-	</script>
-	<!--	<script src="//at.alicdn.com/t/font_677026_lk9xqndynx5pzaor.js"></script>-->
-	<link rel="stylesheet" href="css/resume-style.css">
-
+	<title>南京邮电大学-邱雪-前端工程师-实习</title>
+	<link rel="stylesheet" href="./css/loading.css">
+	<script src="//at.alicdn.com/t/font_677026_43w1vtc4ihq.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
 	<style type="text/css">
 		.icon {
 			width: 1em;
@@ -17,10 +15,13 @@
 			overflow: hidden;
 		}
 	</style>
-
 </head>
 
 <body>
+<div id="siteWelcome" class="siteWelcome active">
+	<div class="loading"></div>
+</div>
+
 	<div class="topNavBar clearfix">
 		<div class="topNavBar-inner clearfix">
 			<a class="logo" href="#" alt="logo">
@@ -63,7 +64,6 @@
 		</div>
 	</div>
 
-
 	<main>
 		<div class="userCard">
 			<div class="pictureAndText clearfix">
@@ -75,64 +75,52 @@
 					<span class="welcome">HELLO
 						<span class="triangle"></span>
 					</span>
-					<h1>雪儿</h1>
-					<h2>前端开发工程师</h2>
+					<h1>邱雪</h1>
+					<h2>前端工程师</h2>
 					<hr>
 					<dl>
 						<dt>年龄</dt>
-						<dd>xx</dd>
+						<dd>22</dd>
 						<dt>城市</dt>
 						<dd>南京</dd>
 						<dt>EMAIL</dt>
-						<dd>12345678@qq.com</dd>
+						<dd>1309571292@qq.com</dd>
 						<dt>电话</dt>
 						<dd>
 							<a href="tel:182236498578">18236498578</a>
 						</dd>
 						<dt>学校</dt>
-						<dd>xxx</dd>
+						<dd>南京邮电大学</dd>
 					</dl>
 				</div>
 			</div>
 			<footer class="media">
 				<a href="#">
 					<svg class="icon" aria-hidden="true">
-						<!--	<use xlink:href="#icon-jianshu1"></use>-->
-						<use xlink:href="#icon-jianshu_circle"></use>
-					</svg>
-
-				</a>
-				<a href="#">
-					<svg class="icon" aria-hidden="true">
-						<!--	<use xlink:href="#icon-boke"></use>-->
-						<use xlink:href="#icon-boke1"></use>
-					</svg>
-
-				</a>
-				<a href="#">
-					<svg class="icon" aria-hidden="true">
 						<use xlink:href="#icon-github"></use>
 					</svg>
-
 				</a>
 				<a href="#">
 					<svg class="icon" aria-hidden="true">
-						<!--<use xlink:href="#icon-matuwang-zhihufangxingdianji"></use>-->
-						<use xlink:href="#icon-weibo1"></use>
+						<use xlink:href="#icon-zhihu1"></use>
 					</svg>
 
+				</a>
+				</a>
+				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-QQ"></use>
+					</svg>
 
 				</a>
 			</footer>
 		</div>
 		<p class="downloadResume-wrapper">
-			<a class="downloadResume" href="./雪儿-前端开发实习.pdf" download target="_blank">下载PDF版简历</a>
+			<a class="downloadResume" href="./雪儿-前端开发实习.pdf" download target="_blank">下载WORD简历</a>
 		</p>
 
 		<p class="introduction">
 			I'm Qiuxue from Chongqing. I am a junior student from Nanjing University of posts and Telecommunications. Last year I contact
-			with HTML, and I think it's challenging. I feel very fortunate when a beautiful page developed by myself. So I want to
-			join the work.
 			<br>
 		</p>
 	</main>
@@ -177,6 +165,7 @@
 			</li>
 		</ol>
 	</section>
+
 	<section class="portfolio">
 		<h2>作品集</h2>
 		<nav>
@@ -203,15 +192,19 @@
 	</section>
 	<div class="works clearfix">
 		<div class="big">
-			<img src="./images/all-image-one.jpg" alt="作品1"/>
+			<img src="./images/all-image-one.jpg" alt="作品1" />
 		</div>
 		<div class="small-top">
-				<img src="./images/all-image-two.jpg" alt="作品2"/>
+			<img src="./images/all-image-two.jpg" alt="作品2" />
 		</div>
 		<div class="small-bottom">
-				<img src="./images/all-image-three.jpg" alt="作品3"/>
+			<img src="./images/all-image-three.jpg" alt="作品3" />
 		</div>
 	</div>
+	<script>
+		//当之前语句全部加载完成，就不再显示siteWelcom
+	   siteWelcome.classList.remove('active')
+	</script>
 </body>
 
 </html>
