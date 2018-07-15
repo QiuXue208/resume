@@ -202,8 +202,11 @@
 		</div>
 	</div>
 	<script>
-		//当之前语句全部加载完成，就不再显示siteWelcom
-	   siteWelcome.classList.remove('active')
+		//执行完所有语句之后，至少有一秒显示loading再移除active
+		setTimeout(function(){
+			siteWelcome.classList.remove('active')
+		},1000)
+	   
 	</script>
 </body>
 

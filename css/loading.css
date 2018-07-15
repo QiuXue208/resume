@@ -1,13 +1,15 @@
-.loading{
-    width:200px;
-    height:200px;
+.siteWelcome > .loading{
+    width:80px;
+    height:80px;
     position:relative;
   }
-  .loading::before,
-  .loading::after{
+  .siteWelcome > .loading::before,
+  .siteWelcome > .loading::after{
     content:'';
     background:grey;
     position:absolute;
+    width:0;
+    height:0;
     top:0;
     left:0;
     bottom:0;
@@ -16,7 +18,7 @@
     border-radius:50%;
     animation:loading 2s infinite;  
   }
-  .loading::after
+  .siteWelcome > .loading::after
   {
     animation-delay:1s;
   }
