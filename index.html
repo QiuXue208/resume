@@ -173,20 +173,22 @@
 
 	<section data-x id="products" class="portfolio">
 		<h2>作品集</h2>
-		<div class="swiper-container">
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper">
-				<img class="swiper-slide" src="./images/nav.jpg" alt="网站导航">
-				<img class="swiper-slide" src="./images/apple-like-slides.jpg" alt="苹果风格轮播">
-				<img class="swiper-slide" src="./images/canvas.jpg" alt="canvas画布">
+		<!--这就是swiper-slides.js的view，用户看得见的东西-->
+		<div id="mySlides">
+			<div class="swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<img class="swiper-slide" src="./images/nav.jpg" alt="网站导航">
+					<img class="swiper-slide" src="./images/apple-like-slides.jpg" alt="苹果风格轮播">
+					<img class="swiper-slide" src="./images/canvas.jpg" alt="canvas画布">
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
 			</div>
-			<!-- If we need pagination -->
-			<div class="swiper-pagination"></div>
 			<!-- If we need navigation buttons -->
 			<div class="swiper-button-prev"></div>
 			<div class="swiper-button-next"></div>
 		</div>
-
 	</section>
 	<!--动画效果-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
@@ -195,9 +197,9 @@
 	<script src="./js/swiper-slides.js"></script>
 	<script src="./js/auto-slide-and-highLight.js"></script>
 	<script src="./js/sticky-topNavBar.js"></script>
-	<script src="./js/loadding.js"></script>
 	<script src="./js/listen-topbar-addAndRemoveStyle.js"></script>
 	<script src="./js/auto-slide-to-corre-region.js"></script>
+	<script src="./js/loadding.js"></script>
 </body>
 
 </html>
