@@ -10,7 +10,7 @@ hr{height:0;border:none;border-top:1px solid #DEDEDE;}
 [data-x].offset{transform:translateY(70px);}
 [data-x]{transform: translateY(0px);transition: all 0.5s;}
 
-.topNavBar.sticky{background:white;padding:10px 0;color:#3d4451;z-index:1;box-shadow:0 0 10px rgba(0,0,0,0.25);}
+.topNavBar.sticky{background:white;padding:15px 0;color:#3d4451;z-index:1;box-shadow:0 0 10px rgba(0,0,0,0.25);}
 .topNavBar > .topNavBar-inner{padding-left:15px;padding-right:15px;}
 .topNavBar .logo{font-size: 24px;font-family: "Arial Black";padding-top:3px;padding-bottom:4px;}
 .topNavBar .logo .rs{color:#E8676B;}
@@ -64,7 +64,8 @@ main > .introduction{max-width: 937px;;margin-left: auto;margin-right: auto;
     margin-top:40px;font-size:21px;line-height:35px;font-family: 'Times New Roman';}
 
 
-section.professional-skills >h2{text-align: center;line-height: 1.2;color:#3d4451;font-size: 29px;font-weight: 600;margin-bottom: 31px;padding-top:10px;}
+section.professional-skills >h2,
+section.message > h2{text-align: center;line-height: 1.2;color:#3d4451;font-size: 29px;font-weight: 600;margin-bottom: 31px;padding-top:10px;}
 section.professional-skills > ol{background: white;box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.3);
     padding-bottom:20px;padding-top:35px;padding-left:50px;padding-right:20px;}
 section.professional-skills ol > li{float:left;width:50%;padding-right:30px;box-sizing: border-box;}
@@ -82,3 +83,41 @@ section.portfolio .swiper-container {width: 608px;height: 456px; box-shadow: 0px
 section.portfolio .swiper-button-prev,
 section.portfolio .swiper-button-next{margin-right:-100px;width:66px;height:66px;border-radius:50%;background-color:white;right:100%;left:auto;}
 section.portfolio .swiper-button-next{left:100%;right:auto;margin-left:-100px;}
+
+section.message{
+    max-width: 900px;
+    margin:0 auto;
+}
+section.message > ol{
+    border:3px solid #DCD; 
+    border-bottom:2px solid #DCD;  
+    background: #F4F4F4;
+    margin-bottom:30px;
+
+}
+section.message > ol > li{
+    padding:17px;
+    border-bottom:1px solid #DCD;
+}
+section.message #postMessageForm{
+    margin-bottom:200px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+section.message #postMessageForm .name,
+section.message #postMessageForm .content{padding:5px;}
+
+.labelContent{
+    margin-left:20px;
+}
+label{
+    margin:5px;
+}
+section.message #postMessageForm .submit{
+    background: #3E9FFD;
+    width:80px;
+    height:33px;
+    border-radius:5px;
+    margin-left:70px;
+    margin-top:20px;
+}

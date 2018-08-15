@@ -39,7 +39,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#experience">经历</a>
+						<a href="#message">留言板</a>
 					</li>
 					<li>
 						<a href="#blog">博客</a>
@@ -80,7 +80,7 @@
 						<span class="triangle"></span>
 					</span>
 					<h1>邱雪</h1>
-					<h2>前端工程师</h2>
+					<h2>前端开发工程师</h2>
 					<hr>
 					<dl>
 						<dt>年龄</dt>
@@ -99,12 +99,12 @@
 				</div>
 			</div>
 			<footer class="media">
-				<a href="#">
+				<a href="https://github.com/puppyer">
 					<svg class="icon" aria-hidden="true">
 						<use xlink:href="#icon-github"></use>
 					</svg>
 				</a>
-				<a href="#">
+				<a href="https://www.zhihu.com/people/xue-er-95-9/posts">
 					<svg class="icon" aria-hidden="true">
 						<use xlink:href="#icon-zhihu1"></use>
 					</svg>
@@ -190,6 +190,21 @@
 			<div class="swiper-button-next"></div>
 		</div>
 	</section>
+	<section data-x class="message" id="message">
+		<h2>留言</h2>
+		<ol id="messageList">
+		</ol>
+		<form id="postMessageForm">
+			<label class="labelName">姓名</label>
+			<input type="text" name="name" class="name">
+			<label class="labelContent">内容</label>
+			<input type="text" name="content" class="content">
+			<input type="submit" value="提交" class="submit">
+		</form>
+	</section>
+	<!-- 存储服务 -->
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+	<script src="./js/message.js"></script>
 	<!--动画效果-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
