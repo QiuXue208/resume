@@ -1,6 +1,6 @@
 !function(){
     //这个模块操作了一个元素，即swiper-container
-    var view = document.querySelector('#mySlides')
+    var view = View('#mySlides')
     //去view里面找swiper-container
     var controller = {
         view:null,

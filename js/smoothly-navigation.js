@@ -1,6 +1,6 @@
 
 !function () {
-    var view = document.querySelector('nav.menu')
+    var view = View('nav.menu')
     //点击topNavBar时，使对应区块缓慢跳转到指定位置
     var controller = function(view){
         let aTags = view.querySelectorAll('nav.menu > ul > li > a')

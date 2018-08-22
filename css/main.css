@@ -42,7 +42,7 @@ hr{height:0;border:none;border-top:1px solid #DEDEDE;}
     padding:5px 12px 5px 12px;position: relative;}
 .userCard .triangle{display: block;border:10px solid #E6686A;width:0px;border-bottom-color:transparent;
     border-right-color:transparent;border-top-width:0px;position:absolute;left:4px;top:100%;}
-.userCard .picture{float:left;}
+.userCard .picture{float:left;padding-top:70px;padding-right:50px;}
 .userCard .text{float:left;margin-left: 64px;width:470px;}
 .userCard .text h1{margin-top: 24px;margin-bottom:7px;}
 .userCard .pictureAndText{margin-left: 51px;margin-top: 58px;}
