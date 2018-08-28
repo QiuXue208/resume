@@ -6,6 +6,10 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .clearfix::after{content:"";display: block;clear:both;}
 hr{height:0;border:none;border-top:1px solid #DEDEDE;}
 .icon {width: 1em;height: 1em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;}
+.swiper-button-prev:focus,
+.swiper-button-next:focus{
+    outline:none;
+}
 
 [data-x].offset{transform:translateY(70px);}
 [data-x]{transform: translateY(0px);transition: all 0.5s;}
@@ -19,7 +23,7 @@ hr{height:0;border:none;border-top:1px solid #DEDEDE;}
 .topNavBar  nav > ul > li{float:left;margin:0 15px;position: relative; }
 .topNavBar  nav > ul > li >a{font-size: 12px;color:inherit;font-weight: bold;
    padding:7px 0;display:block;}
-.topNavBar{padding:20px 0;position: fixed;left:0;top:0;width:100%;color:#B7B7B7;transition:all 0.3s;}
+.topNavBar{padding:20px 0;position: fixed;left:0;top:0;width:100%;color:#B7B7B7;transition:all 0.2s;}
 .topNavBar  a{float:left;}
 .topNavBar nav{float:right;padding-top:6px;}
 .topNavBar  nav > ul > li.active >a::after,
@@ -93,4 +97,4 @@ section.message #postMessageForm .name,
 section.message #postMessageForm .content{padding:5px;}
 .labelContent{margin-left:20px;}
 label{margin:5px;}
-section.message #postMessageForm .submit{background: #3E9FFD;width:80px;height:33px;border-radius:5px;margin-left:70px;margin-top:20px;}
+section.message #postMessageForm .submit{font-weight:bold;border:none;background: #3E9FFD;width:80px;height:30px;border-radius:5px;margin-left:70px;margin-top:20px;}
